@@ -1,0 +1,17 @@
+//
+//  DaYiCore.pch
+//  DaYi_Core
+//
+//  Created by Fukai on 2019/8/12.
+//  Copyright © 2019 FuKai. All rights reserved.
+//
+
+#ifndef DaYiCore_pch
+#define DaYiCore_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <QMUIKit/QMUIKit.h>
+#import "DaYiCore.h"
+
+#endif /* DaYiCore_pch */

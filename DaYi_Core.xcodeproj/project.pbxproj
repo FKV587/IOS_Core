@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F90882D23010BD500629C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90882C23010BD500629C48 /* AppDelegate.m */; };
+		2F90883023010BD500629C48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90882F23010BD500629C48 /* ViewController.m */; };
+		2F90883323010BD500629C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F90883123010BD500629C48 /* Main.storyboard */; };
+		2F90883523010BE200629C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F90883423010BE200629C48 /* Assets.xcassets */; };
+		2F90883823010BE200629C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F90883623010BE200629C48 /* LaunchScreen.storyboard */; };
+		2F90883B23010BE200629C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90883A23010BE200629C48 /* main.m */; };
+		2F90884523010BE200629C48 /* DaYi_CoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90884423010BE200629C48 /* DaYi_CoreTests.m */; };
+		2F90885023010BE200629C48 /* DaYi_CoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90884F23010BE200629C48 /* DaYi_CoreUITests.m */; };
+		2F90888623010E1500629C48 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90886523010E1400629C48 /* QMUIConfigurationTemplate.m */; };
+		2F9088B223010E3900629C48 /* NSString+FolatLastValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90889523010E3600629C48 /* NSString+FolatLastValue.m */; };
+		2F9088B423010E3900629C48 /* UIButton+UIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90889823010E3600629C48 /* UIButton+UIStyle.m */; };
+		2F9088B623010E3900629C48 /* UIViewController+FKImagePickerSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90889D23010E3700629C48 /* UIViewController+FKImagePickerSelect.m */; };
+		2F9088B723010E3900629C48 /* CJMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90889F23010E3700629C48 /* CJMD5.m */; };
+		2F9088B823010E3900629C48 /* UIView+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088A023010E3700629C48 /* UIView+Appearance.m */; };
+		2F9088B923010E3900629C48 /* UIViewController+UINavigationStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088A123010E3700629C48 /* UIViewController+UINavigationStyle.m */; };
+		2F9088BA23010E3900629C48 /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088A323010E3700629C48 /* UIView+Loading.m */; };
+		2F9088BB23010E3900629C48 /* NSMutableAttributedString+DY.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088A423010E3700629C48 /* NSMutableAttributedString+DY.m */; };
+		2F9088BC23010E3900629C48 /* DYSavePHPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088A723010E3800629C48 /* DYSavePHPhotoLibrary.m */; };
+		2F9088BD23010E3900629C48 /* NSString+DaYi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088A823010E3800629C48 /* NSString+DaYi.m */; };
+		2F9088BE23010E3900629C48 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9088AB23010E3800629C48 /* UIColor+HexColor.m */; };
+		2FC62F33230502F100F408F8 /* DaYiResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FC62F32230502F100F408F8 /* DaYiResources.bundle */; };
+		2FC62F3C230517F500F408F8 /* UIImage+DaYi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC62F39230517F500F408F8 /* UIImage+DaYi.m */; };
+		2FC62F3D230517F500F408F8 /* DYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC62F3A230517F500F408F8 /* DYHelper.m */; };
+		C1184BCB1A47E818B7FE3179 /* Pods_DaYi_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B39C3C12F708DE0340A0340 /* Pods_DaYi_Core.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F90884123010BE200629C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F90882023010BD400629C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F90882723010BD500629C48;
+			remoteInfo = DaYi_Core;
+		};
+		2F90884C23010BE200629C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F90882023010BD400629C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F90882723010BD500629C48;
+			remoteInfo = DaYi_Core;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284AA4D7B456D6E0A5CBD357 /* Pods-DaYi_Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaYi_Core.debug.xcconfig"; path = "Target Support Files/Pods-DaYi_Core/Pods-DaYi_Core.debug.xcconfig"; sourceTree = "<group>"; };
+		2F90882823010BD500629C48 /* DaYi_Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaYi_Core.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F90882B23010BD500629C48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F90882C23010BD500629C48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F90882E23010BD500629C48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F90882F23010BD500629C48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F90883223010BD500629C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F90883423010BE200629C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F90883723010BE200629C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F90883923010BE200629C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F90883A23010BE200629C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F90884023010BE200629C48 /* DaYi_CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaYi_CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F90884423010BE200629C48 /* DaYi_CoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaYi_CoreTests.m; sourceTree = "<group>"; };
+		2F90884623010BE200629C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F90884B23010BE200629C48 /* DaYi_CoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaYi_CoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F90884F23010BE200629C48 /* DaYi_CoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaYi_CoreUITests.m; sourceTree = "<group>"; };
+		2F90885123010BE200629C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F90885E23010D2E00629C48 /* DaYiCorePch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaYiCorePch.pch; sourceTree = "<group>"; };
+		2F90886423010E1400629C48 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		2F90886523010E1400629C48 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		2F90888423010E1500629C48 /* DaYiCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaYiCore.h; sourceTree = "<group>"; };
+		2F90889523010E3600629C48 /* NSString+FolatLastValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FolatLastValue.m"; sourceTree = "<group>"; };
+		2F90889623010E3600629C48 /* NSString+FolatLastValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FolatLastValue.h"; sourceTree = "<group>"; };
+		2F90889823010E3600629C48 /* UIButton+UIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIStyle.m"; sourceTree = "<group>"; };
+		2F90889923010E3700629C48 /* DaYiCoreDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaYiCoreDefines.h; sourceTree = "<group>"; };
+		2F90889B23010E3700629C48 /* NSString+DaYi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DaYi.h"; sourceTree = "<group>"; };
+		2F90889C23010E3700629C48 /* CJMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMD5.h; sourceTree = "<group>"; };
+		2F90889D23010E3700629C48 /* UIViewController+FKImagePickerSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FKImagePickerSelect.m"; sourceTree = "<group>"; };
+		2F90889E23010E3700629C48 /* UIButton+UIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIStyle.h"; sourceTree = "<group>"; };
+		2F90889F23010E3700629C48 /* CJMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMD5.m; sourceTree = "<group>"; };
+		2F9088A023010E3700629C48 /* UIView+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Appearance.m"; sourceTree = "<group>"; };
+		2F9088A123010E3700629C48 /* UIViewController+UINavigationStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UINavigationStyle.m"; sourceTree = "<group>"; };
+		2F9088A223010E3700629C48 /* UIViewController+FKImagePickerSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FKImagePickerSelect.h"; sourceTree = "<group>"; };
+		2F9088A323010E3700629C48 /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
+		2F9088A423010E3700629C48 /* NSMutableAttributedString+DY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+DY.m"; sourceTree = "<group>"; };
+		2F9088A523010E3800629C48 /* DYSavePHPhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSavePHPhotoLibrary.h; sourceTree = "<group>"; };
+		2F9088A723010E3800629C48 /* DYSavePHPhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSavePHPhotoLibrary.m; sourceTree = "<group>"; };
+		2F9088A823010E3800629C48 /* NSString+DaYi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DaYi.m"; sourceTree = "<group>"; };
+		2F9088AA23010E3800629C48 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		2F9088AB23010E3800629C48 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		2F9088AC23010E3800629C48 /* NSMutableAttributedString+DY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+DY.h"; sourceTree = "<group>"; };
+		2F9088AD23010E3800629C48 /* UIView+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Appearance.h"; sourceTree = "<group>"; };
+		2F9088AE23010E3800629C48 /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
+		2F9088AF23010E3800629C48 /* UIViewController+UINavigationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UINavigationStyle.h"; sourceTree = "<group>"; };
+		2FC62F32230502F100F408F8 /* DaYiResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DaYiResources.bundle; sourceTree = "<group>"; };
+		2FC62F38230517F500F408F8 /* UIImage+DaYi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DaYi.h"; sourceTree = "<group>"; };
+		2FC62F39230517F500F408F8 /* UIImage+DaYi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DaYi.m"; sourceTree = "<group>"; };
+		2FC62F3A230517F500F408F8 /* DYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHelper.m; sourceTree = "<group>"; };
+		2FC62F3B230517F500F408F8 /* DYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHelper.h; sourceTree = "<group>"; };
+		4B39C3C12F708DE0340A0340 /* Pods_DaYi_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaYi_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E2023F9D30D873A814C757 /* Pods-DaYi_Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaYi_Core.release.xcconfig"; path = "Target Support Files/Pods-DaYi_Core/Pods-DaYi_Core.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F90882523010BD500629C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1184BCB1A47E818B7FE3179 /* Pods_DaYi_Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F90883D23010BE200629C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F90884823010BE200629C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215D52E82638EA75D874BE25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B39C3C12F708DE0340A0340 /* Pods_DaYi_Core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F90881F23010BD400629C48 = {
+			isa = PBXGroup;
+			children = (
+				2F90882A23010BD500629C48 /* DaYi_Core */,
+				2F90884323010BE200629C48 /* DaYi_CoreTests */,
+				2F90884E23010BE200629C48 /* DaYi_CoreUITests */,
+				2F90882923010BD500629C48 /* Products */,
+				630F8AE99DE624D602B02C61 /* Pods */,
+				215D52E82638EA75D874BE25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F90882923010BD500629C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F90882823010BD500629C48 /* DaYi_Core.app */,
+				2F90884023010BE200629C48 /* DaYi_CoreTests.xctest */,
+				2F90884B23010BE200629C48 /* DaYi_CoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F90882A23010BD500629C48 /* DaYi_Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F90885D23010CFD00629C48 /* DaYi_Core */,
+				2F90882B23010BD500629C48 /* AppDelegate.h */,
+				2F90882C23010BD500629C48 /* AppDelegate.m */,
+				2F90882E23010BD500629C48 /* ViewController.h */,
+				2F90882F23010BD500629C48 /* ViewController.m */,
+				2F90883123010BD500629C48 /* Main.storyboard */,
+				2F90883423010BE200629C48 /* Assets.xcassets */,
+				2F90883623010BE200629C48 /* LaunchScreen.storyboard */,
+				2F90883923010BE200629C48 /* Info.plist */,
+				2F90883A23010BE200629C48 /* main.m */,
+				2F90885E23010D2E00629C48 /* DaYiCorePch.pch */,
+				2FC62F32230502F100F408F8 /* DaYiResources.bundle */,
+			);
+			path = DaYi_Core;
+			sourceTree = "<group>";
+		};
+		2F90884323010BE200629C48 /* DaYi_CoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F90884423010BE200629C48 /* DaYi_CoreTests.m */,
+				2F90884623010BE200629C48 /* Info.plist */,
+			);
+			path = DaYi_CoreTests;
+			sourceTree = "<group>";
+		};
+		2F90884E23010BE200629C48 /* DaYi_CoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F90884F23010BE200629C48 /* DaYi_CoreUITests.m */,
+				2F90885123010BE200629C48 /* Info.plist */,
+			);
+			path = DaYi_CoreUITests;
+			sourceTree = "<group>";
+		};
+		2F90885D23010CFD00629C48 /* DaYi_Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F90886323010E1400629C48 /* QMUIConfigurationTemplate */,
+				2F90886623010E1500629C48 /* Category */,
+				2F90888423010E1500629C48 /* DaYiCore.h */,
+			);
+			path = DaYi_Core;
+			sourceTree = "<group>";
+		};
+		2F90886323010E1400629C48 /* QMUIConfigurationTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2F90886423010E1400629C48 /* QMUIConfigurationTemplate.h */,
+				2F90886523010E1400629C48 /* QMUIConfigurationTemplate.m */,
+			);
+			path = QMUIConfigurationTemplate;
+			sourceTree = "<group>";
+		};
+		2F90886623010E1500629C48 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2FC62F3B230517F500F408F8 /* DYHelper.h */,
+				2FC62F3A230517F500F408F8 /* DYHelper.m */,
+				2FC62F38230517F500F408F8 /* UIImage+DaYi.h */,
+				2FC62F39230517F500F408F8 /* UIImage+DaYi.m */,
+				2F90889C23010E3700629C48 /* CJMD5.h */,
+				2F90889F23010E3700629C48 /* CJMD5.m */,
+				2F90889923010E3700629C48 /* DaYiCoreDefines.h */,
+				2F9088A523010E3800629C48 /* DYSavePHPhotoLibrary.h */,
+				2F9088A723010E3800629C48 /* DYSavePHPhotoLibrary.m */,
+				2F9088AC23010E3800629C48 /* NSMutableAttributedString+DY.h */,
+				2F9088A423010E3700629C48 /* NSMutableAttributedString+DY.m */,
+				2F90889B23010E3700629C48 /* NSString+DaYi.h */,
+				2F9088A823010E3800629C48 /* NSString+DaYi.m */,
+				2F90889623010E3600629C48 /* NSString+FolatLastValue.h */,
+				2F90889523010E3600629C48 /* NSString+FolatLastValue.m */,
+				2F90889E23010E3700629C48 /* UIButton+UIStyle.h */,
+				2F90889823010E3600629C48 /* UIButton+UIStyle.m */,
+				2F9088AA23010E3800629C48 /* UIColor+HexColor.h */,
+				2F9088AB23010E3800629C48 /* UIColor+HexColor.m */,
+				2F9088AD23010E3800629C48 /* UIView+Appearance.h */,
+				2F9088A023010E3700629C48 /* UIView+Appearance.m */,
+				2F9088AE23010E3800629C48 /* UIView+Loading.h */,
+				2F9088A323010E3700629C48 /* UIView+Loading.m */,
+				2F9088A223010E3700629C48 /* UIViewController+FKImagePickerSelect.h */,
+				2F90889D23010E3700629C48 /* UIViewController+FKImagePickerSelect.m */,
+				2F9088AF23010E3800629C48 /* UIViewController+UINavigationStyle.h */,
+				2F9088A123010E3700629C48 /* UIViewController+UINavigationStyle.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		630F8AE99DE624D602B02C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284AA4D7B456D6E0A5CBD357 /* Pods-DaYi_Core.debug.xcconfig */,
+				A0E2023F9D30D873A814C757 /* Pods-DaYi_Core.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F90882723010BD500629C48 /* DaYi_Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F90885423010BE200629C48 /* Build configuration list for PBXNativeTarget "DaYi_Core" */;
+			buildPhases = (
+				4EA5991991C91AC9544C33D1 /* [CP] Check Pods Manifest.lock */,
+				2F90882423010BD500629C48 /* Sources */,
+				2F90882523010BD500629C48 /* Frameworks */,
+				2F90882623010BD500629C48 /* Resources */,
+				F71B99EEA89E6A98EFB0CDD8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaYi_Core;
+			productName = DaYi_Core;
+			productReference = 2F90882823010BD500629C48 /* DaYi_Core.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F90883F23010BE200629C48 /* DaYi_CoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F90885723010BE200629C48 /* Build configuration list for PBXNativeTarget "DaYi_CoreTests" */;
+			buildPhases = (
+				2F90883C23010BE200629C48 /* Sources */,
+				2F90883D23010BE200629C48 /* Frameworks */,
+				2F90883E23010BE200629C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F90884223010BE200629C48 /* PBXTargetDependency */,
+			);
+			name = DaYi_CoreTests;
+			productName = DaYi_CoreTests;
+			productReference = 2F90884023010BE200629C48 /* DaYi_CoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F90884A23010BE200629C48 /* DaYi_CoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F90885A23010BE200629C48 /* Build configuration list for PBXNativeTarget "DaYi_CoreUITests" */;
+			buildPhases = (
+				2F90884723010BE200629C48 /* Sources */,
+				2F90884823010BE200629C48 /* Frameworks */,
+				2F90884923010BE200629C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F90884D23010BE200629C48 /* PBXTargetDependency */,
+			);
+			name = DaYi_CoreUITests;
+			productName = DaYi_CoreUITests;
+			productReference = 2F90884B23010BE200629C48 /* DaYi_CoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F90882023010BD400629C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = FuKai;
+				TargetAttributes = {
+					2F90882723010BD500629C48 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2F90883F23010BE200629C48 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2F90882723010BD500629C48;
+					};
+					2F90884A23010BE200629C48 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2F90882723010BD500629C48;
+					};
+				};
+			};
+			buildConfigurationList = 2F90882323010BD400629C48 /* Build configuration list for PBXProject "DaYi_Core" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F90881F23010BD400629C48;
+			productRefGroup = 2F90882923010BD500629C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F90882723010BD500629C48 /* DaYi_Core */,
+				2F90883F23010BE200629C48 /* DaYi_CoreTests */,
+				2F90884A23010BE200629C48 /* DaYi_CoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F90882623010BD500629C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F90883823010BE200629C48 /* LaunchScreen.storyboard in Resources */,
+				2F90883523010BE200629C48 /* Assets.xcassets in Resources */,
+				2FC62F33230502F100F408F8 /* DaYiResources.bundle in Resources */,
+				2F90883323010BD500629C48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F90883E23010BE200629C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F90884923010BE200629C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EA5991991C91AC9544C33D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DaYi_Core-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71B99EEA89E6A98EFB0CDD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DaYi_Core/Pods-DaYi_Core-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DaYi_Core/Pods-DaYi_Core-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DaYi_Core/Pods-DaYi_Core-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F90882423010BD500629C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9088BB23010E3900629C48 /* NSMutableAttributedString+DY.m in Sources */,
+				2F9088BD23010E3900629C48 /* NSString+DaYi.m in Sources */,
+				2FC62F3C230517F500F408F8 /* UIImage+DaYi.m in Sources */,
+				2FC62F3D230517F500F408F8 /* DYHelper.m in Sources */,
+				2F9088B823010E3900629C48 /* UIView+Appearance.m in Sources */,
+				2F9088BE23010E3900629C48 /* UIColor+HexColor.m in Sources */,
+				2F9088BC23010E3900629C48 /* DYSavePHPhotoLibrary.m in Sources */,
+				2F9088B423010E3900629C48 /* UIButton+UIStyle.m in Sources */,
+				2F90883023010BD500629C48 /* ViewController.m in Sources */,
+				2F90888623010E1500629C48 /* QMUIConfigurationTemplate.m in Sources */,
+				2F9088B923010E3900629C48 /* UIViewController+UINavigationStyle.m in Sources */,
+				2F90883B23010BE200629C48 /* main.m in Sources */,
+				2F9088B223010E3900629C48 /* NSString+FolatLastValue.m in Sources */,
+				2F90882D23010BD500629C48 /* AppDelegate.m in Sources */,
+				2F9088B723010E3900629C48 /* CJMD5.m in Sources */,
+				2F9088B623010E3900629C48 /* UIViewController+FKImagePickerSelect.m in Sources */,
+				2F9088BA23010E3900629C48 /* UIView+Loading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F90883C23010BE200629C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F90884523010BE200629C48 /* DaYi_CoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F90884723010BE200629C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F90885023010BE200629C48 /* DaYi_CoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F90884223010BE200629C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F90882723010BD500629C48 /* DaYi_Core */;
+			targetProxy = 2F90884123010BE200629C48 /* PBXContainerItemProxy */;
+		};
+		2F90884D23010BE200629C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F90882723010BD500629C48 /* DaYi_Core */;
+			targetProxy = 2F90884C23010BE200629C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F90883123010BD500629C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F90883223010BD500629C48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F90883623010BE200629C48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F90883723010BE200629C48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F90885223010BE200629C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F90885323010BE200629C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F90885523010BE200629C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284AA4D7B456D6E0A5CBD357 /* Pods-DaYi_Core.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				GCC_PREFIX_HEADER = DaYi_Core/DaYiCorePch.pch;
+				INFOPLIST_FILE = DaYi_Core/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-Core";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F90885623010BE200629C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E2023F9D30D873A814C757 /* Pods-DaYi_Core.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				GCC_PREFIX_HEADER = DaYi_Core/DaYiCorePch.pch;
+				INFOPLIST_FILE = DaYi_Core/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-Core";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F90885823010BE200629C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_CoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-CoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaYi_Core.app/DaYi_Core";
+			};
+			name = Debug;
+		};
+		2F90885923010BE200629C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_CoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-CoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaYi_Core.app/DaYi_Core";
+			};
+			name = Release;
+		};
+		2F90885B23010BE200629C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_CoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-CoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaYi_Core;
+			};
+			name = Debug;
+		};
+		2F90885C23010BE200629C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_CoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-CoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaYi_Core;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F90882323010BD400629C48 /* Build configuration list for PBXProject "DaYi_Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F90885223010BE200629C48 /* Debug */,
+				2F90885323010BE200629C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F90885423010BE200629C48 /* Build configuration list for PBXNativeTarget "DaYi_Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F90885523010BE200629C48 /* Debug */,
+				2F90885623010BE200629C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F90885723010BE200629C48 /* Build configuration list for PBXNativeTarget "DaYi_CoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F90885823010BE200629C48 /* Debug */,
+				2F90885923010BE200629C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F90885A23010BE200629C48 /* Build configuration list for PBXNativeTarget "DaYi_CoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F90885B23010BE200629C48 /* Debug */,
+				2F90885C23010BE200629C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F90882023010BD400629C48 /* Project object */;
+}
